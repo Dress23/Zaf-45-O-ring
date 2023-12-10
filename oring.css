@@ -7,7 +7,8 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
-    background-color: rgb(9,10,11);
+    background-color: gray;
+
    }
 
 }
@@ -15,6 +16,7 @@ body{
     height: 400px;
     width: 700px;
     transform-style: preserve-3d;
+    margin-right: 10px;
 
 }
 .container{
@@ -24,12 +26,13 @@ body{
     background: transparent;
     border: 20px solid transparent;
     border-radius: 50%;
-
 }
 .ring-blue{
     border-color:rgb(0,131,206);
     transform:rotateX(-57deg) scaleY(1.8631) 
     translateZ(1px);
+    
+   
 }
 .ring-yellow{
     border-color: yellow;
@@ -37,11 +40,10 @@ body{
     left: 95px;
     transform:rotateX(179deg) scaleY(1.001) 
     translateZ(71px);
-
 }
 .ring-black{
     border-color: black;
-    left: 221px;
+    left: 240px;
     transform:rotateX(180deg) scaleY(1.0) 
     translateZ(70px);
 
@@ -49,8 +51,8 @@ body{
 }
 .ring-green{
     border-color:rgb(0,169,69);
-    left: 325px;
-    top: 144px;
+    left: 350px;
+    top: 150px;
     transform:rotateX(52deg) scaleY(1.623) 
     translateZ(72px);
 
@@ -58,6 +60,6 @@ body{
 }
 .ring-red{
     border-color:rgb(164,7,52);
-    left:441px;
+    left:480px;
     transform: rotateX(88deg) scaleY(28);
 }
